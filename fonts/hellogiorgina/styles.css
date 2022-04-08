@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Hello Giorgina';
+  src: url(./Hello+Giorgina.eot);
+  src: url(./Hello+Giorgina.eot?#iefix) format('embedded-opentype'),
+       url(./Hello+Giorgina.otf) format('otf'),
+       url(./Hello+Giorgina.svg#Hello%20Giorgina) format('svg'),
+       url(./Hello+Giorgina.ttf) format('truetype'),
+       url(./Hello+Giorgina.woff) format('woff'),
+       url(./Hello+Giorgina.woff2) format('woff2');
+}

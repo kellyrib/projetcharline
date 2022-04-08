@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Cream Cake';
+  src: url(./Cream+Cake.eot);
+  src: url(./Cream+Cake.eot?#iefix) format('embedded-opentype'),
+       url(./Cream+Cake.otf) format('otf'),
+       url(./Cream+Cake.svg#Cream%20Cake) format('svg'),
+       url(./Cream+Cake.ttf) format('truetype'),
+       url(./Cream+Cake.woff) format('woff'),
+       url(./Cream+Cake.woff2) format('woff2');
+}

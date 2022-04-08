@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'Hello Giorgina';
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot);
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot) format('embedded-opentype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.otf) format('otf'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.svg) format('svg'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.ttf) format('truetype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff) format('woff'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff2) format('woff2');
+  }
+@font-face {
+    font-family: 'Autography';
+    src: url(./fonts/signature/Autography.eot);
+    src: url(./fonts/signature/Autography.eot) format('embedded-opentype'),
+         url(./fonts/signature/Autography.otf) format('otf'),
+         url(./fonts/signature/Autography.svg) format('svg'),
+         url(./fonts/signature/Autography.ttf) format('truetype'),
+         url(./fonts/signature/Autography.woff) format('woff'),
+         url(./fonts/signature/Autography.woff2) format('woff2');
+  } 
+  @font-face {
+    font-family: 'Cream Cake';
+    src: url(./fonts/navigation/Cream\ Cake.eot);
+    src: url(./fonts/navigation/Cream\ Cake.eot) format('embedded-opentype'),
+         url(./fonts/navigation/Cream\ Cake.otf) format('otf'),
+         url(./fonts/navigation/Cream\ Cake.svg) format('svg'),
+         url(./fonts/navigation/Cream\ Cake.ttf) format('truetype'),
+         url(./fonts/navigation/Cream\ Cake.woff) format('woff'),
+         url(./fonts/navigation/Cream\ Cake.woff2) format('woff2');
+  }
+  
+#fond
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+}
+
+/*header___________________________________________________________________________*/
+.logo img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+#titre
+{
+    display: flex;
+    flex-direction: column;
+}
+#nom
+{
+    font-family: 'Hello Giorgina';
+    margin-bottom: 1px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#signature
+{
+    font-family: 'Autography';
+    margin-top: -50px;
+    margin-left: 150px;
+    font-size: 25px;
+    
+}
+/*____titre2_________________________________________________________________________*/
+#titre2
+{
+    font-family: 'Hello Giorgina';
+    text-align: center;
+    font-size: 60px;
+    background-color: #f0bbb3;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#titre2 p
+
+{
+    padding: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin: auto;
+
+}
+.retour
+{
+    margin-left: 5%;
+}
+.retour i
+{
+    color: white;
+}
+
+/*premiere__________________________________________________________________________*/
+#box1,#box2, #box3, #box4, #box5, #box6, #box7, #box8, #box9, #box10, #box11, #box12
+{
+    display: flex;
+    align-items: center;
+    margin-left: 12%;
+    border-bottom: white 2px solid;
+    margin-right: 12%;
+   
+}
+.A
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.B
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+}
+.C
+{
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+    background-color: #f0bbb3;
+    box-shadow: 2px 2px 10px 2px thistle;
+}
+.C :hover
+{
+    transform: translateY(5px);
+}
+
+h2
+{
+    font-size: 22px;
+    text-decoration: underline #f0bbb3;
+    margin-left: 1%;
+}
+h3
+{
+    font-size: 18px;
+}
+.tarif p
+{
+    font-size: 18px;
+    font-weight: bolder;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+/*footer_____________________________________________________________________________*/
+footer
+{
+    margin-top: 4%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+footer img
+{
+    width: 5%;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+#mention
+{
+    color: white;
+}

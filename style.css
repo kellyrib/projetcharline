@@ -1,0 +1,260 @@
+@font-face {
+    font-family: 'Hello Giorgina';
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot);
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot) format('embedded-opentype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.otf) format('otf'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.svg) format('svg'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.ttf) format('truetype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff) format('woff'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff2) format('woff2');
+  }
+@font-face {
+    font-family: 'Autography';
+    src: url(./fonts/signature/Autography.eot);
+    src: url(./fonts/signature/Autography.eot) format('embedded-opentype'),
+         url(./fonts/signature/Autography.otf) format('otf'),
+         url(./fonts/signature/Autography.svg) format('svg'),
+         url(./fonts/signature/Autography.ttf) format('truetype'),
+         url(./fonts/signature/Autography.woff) format('woff'),
+         url(./fonts/signature/Autography.woff2) format('woff2');
+  } 
+  @font-face {
+    font-family: 'Cream Cake';
+    src: url(./fonts/navigation/Cream\ Cake.eot);
+    src: url(./fonts/navigation/Cream\ Cake.eot) format('embedded-opentype'),
+         url(./fonts/navigation/Cream\ Cake.otf) format('otf'),
+         url(./fonts/navigation/Cream\ Cake.svg) format('svg'),
+         url(./fonts/navigation/Cream\ Cake.ttf) format('truetype'),
+         url(./fonts/navigation/Cream\ Cake.woff) format('woff'),
+         url(./fonts/navigation/Cream\ Cake.woff2) format('woff2');
+  }
+  
+#fond
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+}
+
+/*header___________________________________________________________________________*/
+.logo img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+#titre
+{
+    display: flex;
+    flex-direction: column;
+}
+#nom
+{
+    font-family: 'Hello Giorgina';
+    margin-bottom: 1px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#signature
+{
+    font-family: 'Autography';
+    margin-top: -50px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+/*navigation_________________________________________________________________________*/
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f0bbb3;
+}
+h2
+{
+    font-family: 'Cream Cake';
+    font-size: 35px; 
+    color: white; 
+}
+
+nav a
+{
+    color: white;
+    text-decoration: none;   
+}
+h2 :hover 
+{
+    color: slateblue;
+}
+/*nav___________________________________________________________________________________*/
+/*section gauche_______________________________________________________________________*/
+#gauche img
+{
+    width: 200px;
+    border: #f0bbb3 5px solid;
+    border-radius: 50%;
+    margin-left: 10%;
+    margin-top: 2%;
+    
+}
+#gauche p
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#gauche
+{
+    border: #f0bbb3 2px solid;
+    width: 25%;
+    height: 25%;
+    margin-top: 4%;
+    margin-left: 2%;
+    box-shadow: 5px 5px 18px 5px #f0bbb3;
+}
+/*sectiongauche__________________________________________________________________________*/
+#miseenpage
+{
+    display: flex;
+    flex-direction: row;
+}
+/*sectiondroite__________________________________________________________________________*/
+
+#droite img
+{
+    width: 25%;
+    border: solid white 15px;
+    border-bottom: solid white 70px;
+}
+#regard img
+{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#sourire img
+{
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: 10%;
+}
+#main img
+{
+    margin-left: 10%;
+    margin-top: 1%;
+    
+}
+#corps img
+{
+    margin-left: 20%;
+    margin-top: 1%;
+    margin-right: 10%;
+    width: 35%;
+}
+#regard
+{
+    display: flex;
+    flex-direction: row;
+    animation-duration: 5s;
+    animation-name: slide1;
+}
+#sourire
+{
+    display: flex;
+    flex-direction: row-reverse; 
+    animation-duration: 5s;
+    animation-name: slide2;
+}
+#main
+{
+    display: flex;
+    flex-direction: row; 
+    animation-duration: 5s;
+    animation-name: slide3;
+}
+#corps
+{
+    display: flex;
+    flex-direction: row-reverse; 
+    animation-duration: 5s;
+    animation-name: slide4;
+}
+#droite p
+{
+    font-family:'Hello Giorgina' ;
+    font-size: 40px;
+}
+#regard p
+{
+    margin: auto;
+
+}
+#sourire p
+{
+    margin-left: 10%;
+    margin-top: 13%;
+
+}
+#main p
+{
+    margin: auto;  
+}
+#corps p
+{
+    margin-left: 5%;
+    margin-top: 13%;
+}
+@keyframes slide1 {
+    
+    from{transform: translateX(40%);
+    }
+}
+@keyframes slide2 {
+    
+    from{transform: translateX(-40%);
+    }
+}
+@keyframes slide3 {
+    
+    from{transform: translateX(40%);
+    }
+}
+@keyframes slide4 {
+    
+    from{transform: translateX(-40%);
+    }
+}
+/*footer_____________________________________________________________________________*/
+footer
+{
+    margin-top: 4%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+footer img
+{
+    width: 5%;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+#mention
+{
+    color: white;
+}
+
+

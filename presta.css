@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'Hello Giorgina';
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot);
+    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot) format('embedded-opentype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.otf) format('otf'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.svg) format('svg'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.ttf) format('truetype'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff) format('woff'),
+         url(./fonts/hellogiorgina/Hello\ Giorgina.woff2) format('woff2');
+  }
+@font-face {
+    font-family: 'Autography';
+    src: url(./fonts/signature/Autography.eot);
+    src: url(./fonts/signature/Autography.eot) format('embedded-opentype'),
+         url(./fonts/signature/Autography.otf) format('otf'),
+         url(./fonts/signature/Autography.svg) format('svg'),
+         url(./fonts/signature/Autography.ttf) format('truetype'),
+         url(./fonts/signature/Autography.woff) format('woff'),
+         url(./fonts/signature/Autography.woff2) format('woff2');
+  } 
+  @font-face {
+    font-family: 'Cream Cake';
+    src: url(./fonts/navigation/Cream\ Cake.eot);
+    src: url(./fonts/navigation/Cream\ Cake.eot) format('embedded-opentype'),
+         url(./fonts/navigation/Cream\ Cake.otf) format('otf'),
+         url(./fonts/navigation/Cream\ Cake.svg) format('svg'),
+         url(./fonts/navigation/Cream\ Cake.ttf) format('truetype'),
+         url(./fonts/navigation/Cream\ Cake.woff) format('woff'),
+         url(./fonts/navigation/Cream\ Cake.woff2) format('woff2');
+  }
+  
+#fond
+{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    position: fixed;
+    z-index: -1;
+}
+
+/*header___________________________________________________________________________*/
+.logo img
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 4%;
+    margin-left: 4%;
+}
+header
+{
+    display: flex;
+    flex-direction: row;
+}
+#titre
+{
+    display: flex;
+    flex-direction: column;
+}
+#nom
+{
+    font-family: 'Hello Giorgina';
+    margin-bottom: 1px;
+    font-size: 18px;
+    margin-left: 20px;
+}
+#signature
+{
+    font-family: 'Autography';
+    margin-top: -50px;
+    margin-left: 150px;
+    font-size: 25px;
+    
+}
+/*____titre2_________________________________________________________________________*/
+#titre2
+{
+    font-family: 'Hello Giorgina';
+    text-align: center;
+    font-size: 60px;
+    background-color: #f0bbb3;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10%;
+    
+}
+#titre2 p
+
+{
+    padding: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin: auto;
+
+}
+.retour
+{
+    margin-left: 5%;
+}
+.retour i
+{
+    color: white;
+}
+
+/*____premiere_____________________________________________________________________*/
+h2
+{
+    font-family: 'Hello Giorgina';
+    font-size: 40px;
+    
+}
+a :hover
+{
+    transform: scale(1.1);
+}
+a
+{
+    color: black;
+    text-decoration: none;
+    transition: transform;
+}
+#haut
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#bas
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#regard
+{
+    
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 15px 17px 15px 5px #f0bbb3;
+    background-color: white;
+    padding: 1% 5% 5% 5%; 
+    border-radius: 90px 0px 0px 0px; 
+   
+}
+
+#sourire
+{
+    
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 15px 17px 15px 5px #f0bbb3;
+    background-color: white;
+    padding: 1% 5% 5% 5%;
+    border-radius: 0px 90px 0px 0px; 
+}
+#mains
+{
+    
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 15px 17px 15px 5px #f0bbb3;
+    background-color: white;
+    padding: 1% 5% 5% 5%;
+    border-radius: 0px 0px 0px 90px; 
+}
+#corps
+{
+   
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-top: 5%;
+    box-shadow: 15px 17px 15px 5px #f0bbb3;
+    background-color: white;
+    padding: 1% 5% 5% 5%;
+    border-radius: 0px 0px 90px 0px; 
+}
+/*footer_____________________________________________________________________________*/
+footer
+{
+    margin-top: 4%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
+footer img
+{
+    width: 5%;
+}
+footer a
+{
+    color: white;
+    text-decoration: none;
+}
+#mention
+{
+    color: white;
+}
+
+
+
