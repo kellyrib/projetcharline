@@ -1,32 +1,32 @@
 @font-face {
     font-family: 'Hello Giorgina';
-    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot);
-    src: url(./fonts/hellogiorgina/Hello\ Giorgina.eot) format('embedded-opentype'),
-         url(./fonts/hellogiorgina/Hello\ Giorgina.otf) format('otf'),
-         url(./fonts/hellogiorgina/Hello\ Giorgina.svg) format('svg'),
-         url(./fonts/hellogiorgina/Hello\ Giorgina.ttf) format('truetype'),
-         url(./fonts/hellogiorgina/Hello\ Giorgina.woff) format('woff'),
-         url(./fonts/hellogiorgina/Hello\ Giorgina.woff2) format('woff2');
+    src: url(../fonts/hellogiorgina/Hello\ Giorgina.eot);
+    src: url(../fonts/hellogiorgina/Hello\ Giorgina.eot) format('embedded-opentype'),
+         url(../fonts/hellogiorgina/Hello\ Giorgina.otf) format('otf'),
+         url(../fonts/hellogiorgina/Hello\ Giorgina.svg) format('svg'),
+         url(../fonts/hellogiorgina/Hello\ Giorgina.ttf) format('truetype'),
+         url(../fonts/hellogiorgina/Hello\ Giorgina.woff) format('woff'),
+         url(../fonts/hellogiorgina/Hello\ Giorgina.woff2) format('woff2');
   }
 @font-face {
     font-family: 'Autography';
-    src: url(./fonts/signature/Autography.eot);
-    src: url(./fonts/signature/Autography.eot) format('embedded-opentype'),
-         url(./fonts/signature/Autography.otf) format('otf'),
-         url(./fonts/signature/Autography.svg) format('svg'),
-         url(./fonts/signature/Autography.ttf) format('truetype'),
-         url(./fonts/signature/Autography.woff) format('woff'),
-         url(./fonts/signature/Autography.woff2) format('woff2');
+    src: url(../fonts/signature/Autography.eot);
+    src: url(../fonts/signature/Autography.eot) format('embedded-opentype'),
+         url(../fonts/signature/Autography.otf) format('otf'),
+         url(../fonts/signature/Autography.svg) format('svg'),
+         url(../fonts/signature/Autography.ttf) format('truetype'),
+         url(../fonts/signature/Autography.woff) format('woff'),
+         url(../fonts/signature/Autography.woff2) format('woff2');
   } 
   @font-face {
     font-family: 'Cream Cake';
-    src: url(./fonts/navigation/Cream\ Cake.eot);
-    src: url(./fonts/navigation/Cream\ Cake.eot) format('embedded-opentype'),
-         url(./fonts/navigation/Cream\ Cake.otf) format('otf'),
-         url(./fonts/navigation/Cream\ Cake.svg) format('svg'),
-         url(./fonts/navigation/Cream\ Cake.ttf) format('truetype'),
-         url(./fonts/navigation/Cream\ Cake.woff) format('woff'),
-         url(./fonts/navigation/Cream\ Cake.woff2) format('woff2');
+    src: url(../fonts/navigation/Cream\ Cake.eot);
+    src: url(../fonts/navigation/Cream\ Cake.eot) format('embedded-opentype'),
+         url(../fonts/navigation/Cream\ Cake.otf) format('otf'),
+         url(../fonts/navigation/Cream\ Cake.svg) format('svg'),
+         url(../fonts/navigation/Cream\ Cake.ttf) format('truetype'),
+         url(../fonts/navigation/Cream\ Cake.woff) format('woff'),
+         url(../fonts/navigation/Cream\ Cake.woff2) format('woff2');
   }
   
 #fond
